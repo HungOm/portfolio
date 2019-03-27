@@ -399,10 +399,13 @@ ul > li {
 #skillList{
   list-style-type: none;
   /*position: initial;*/
-  font-size: 20px;
+  /*font-size: 10px;*/
   width:100%;
   display: inline-flex;
   flex-direction: column-reverse;
+}
+.icons{
+  font-size: 20px;
 }
 
 }
