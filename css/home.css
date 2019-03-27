@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto+Slab');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #2f4661;
+  padding: 26px;
+  /*text-align: center;*/
+  font-size: 30px;
+  color: white;
+  width: 30%;
+  float:left;
+  height: 400px;
+  text-overflow: hidden;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  /*float: right;*/
+  width: 100%;
+  background: #ccc;
+  padding: 10px;
+  display: block;
+  position: fixed;
+
+  top:0;
+  left:0;
+  right:0;
+  overflow: auto;
+}
+
+.void{
+
+  width:100%;
+  padding-top: 120px;
+}
+
+
+#brand {
+background-color:brown;
+width: 10%;
+/*color-profile: white !important;*/
+font-size: 20px;
+font-family:red, Arial;
+border-style: dashed;
+border-radius: 24%;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  float:left;
+  width: 100%;
+  display: inline-block; 
+  /*display: flex;*/
+  /*flex-direction: row-reverse;*/
+
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-style: oblique;
+  font-size: 25px;
+  color:white;
+  text-align: center;
+}
+
+.tab{
+  /*padding: 10px;*/
+  background-color: brown;
+  width: 10%;
+  display: inline-block;
+  float: right;
+  border-style: solid;
+  border-spacing: separate;
+  border-radius: 20%;
+  margin-right: 10px;
+
+  
+
+}
+
+article {
+  float: left;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px;
+  right:0;
+  left:0;
+  padding:10px;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  /*overflow: auto;*/
+  bottom: 0;
+  /*margin:0;*/
+  margin:0;
+  width: 100%;
+
+}
+
+
+/*for newsletter subscription*/
+
+aside{
+  /*padding: 30px;*/
+  width: 30%;
+  float: right;
+  height: 600px;
+  font-family: 'Roboto Slab', serif;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto Slab', serif;
+}
+
+.myContainer {
+  padding: 20px;
+  /*background-color: #f1f1f1;*/
+  /*display: inline-block;*/
+  width: 100%;
+}
+
+
+.col{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align:center;
+  border-spacing: separate;
+}
+
+.col-4{
+  width:44%;
+  display: flex;
+  flex-direction: row
+}
+.col-4 .col-2{
+  width: 50%;
+}
+.col-3{
+  width: 32%;
+  border-spacing: separate;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #2f4661;
+  box-sizing: border-box;
+  
+}
+
+#newsLetter {
+  background-color: #f9d3a5;
+  border-radius: 2% 4%;
+}
+
+
+section #carousel > figure > img{
+
+  display:none;
+  margin: 0px;
+  /*width: 100%;*/
+  /*max-height: 0vh;*/
+}
+
+
+section #carousel > figure.active > img {
+
+  display: inline-block;
+  /*position:relative;*/
+  overflow: hidden;
+  margin: 0px auto;
+  width: 100%;
+
+
+}
+
+
+section #carousel > figure > figcaption {
+  display: none;
+}
+
+
+section #carousel > figure.active > figcaption {
+  display:block;
+  text-align:center;
+  font-weight: bold;
+  font-size:1.5em;
+
+
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2f4661;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:  #303846;
+}
+
+.mycontainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px;
+  height: 390px;
+  padding-bottom: 0px;
+  overflow:hidden;
+
+}
+.col-7{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-7 .col-2{
+width: 50%;
+}
+
+#lastpage {
+  background-color: #2f4661;
+  padding: 26px;
+  /*text-align: center;*/
+  font-size: 30px;
+  color: white;
+  width: 30%;
+  float:left;
+  height: 460px;
+  text-overflow: hidden;
+
+}
+
+#mySociallink{
+  padding-top: 70px;
+  text-align: center;
+}
+
+.btn{
+  font-size: 50px;
+  color:white;
+}
+
+
+
+#pitch {
+  font-size: 30px;
+  color: #2f4661;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto Slab', serif;
+
+
+}
+
+#myskills{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+
+}
+#skillList{
+  /*display: inline-block;*/
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.icons{
+  display: inline-block;
+  text-overflow: hidden;
+  width: 100%;
+  /*list-style-type: none;*/
+}
+
+/* Responsive layout on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    width: 100%;
+    max-height: auto;
+  }
+
+  .void{
+    padding-top: 230px;
+  }
+
+  #brand{
+    background-color:brown;
+    width: 100%;
+    /*color-profile: white !important;*/
+    font-size: 40px;
+    font-family:red, Arial;
+    border-radius: 10%;
+    align-self: center;
+    text-decoration: none;
+
+  }
+
+  .tab{
+  /*padding: 8px;*/
+  /*background-color: brown;*/
+  width: 100%;
+  text-align: center;
+  border-spacing: separate;
+  margin-right: 3px;
+  display: inline-block;
+
+}
+
+aside{
+  /*padding: 30px;*/
+  width: 100%;
+  
+}
+
+.myContainer {
+  padding: 20px;
+  background-color: #f1f1f1;
+  /*display: inline-block;*/
+  width: auto;
+}
+
+#lastpage {
+  width: 100%;
+  /*padding:3px;*/
+}
+
+
+#mySociallink{
+  padding-top: 40px;
+
+}
+ 
+/*Reverse list order when the screen size change*/
+
+ul {
+    transform: rotate(180deg);
+}
+ul > li {
+    transform: rotate(-180deg);
+}
+
+#skillList{
+  list-style-type: none;
+  /*position: initial;*/
+  font-size: 20px;
+  width:100%;
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+
+}
